@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+
+    <header>
+        <h1>Formulário de Envio</h1>
+    </header>
+    <br><!--Pula uma linha-->
+    <main>
+        <form action="acao.html" method="post" enctype="multipart/form-data"> 
+            <label>Nome: </label>
+            <input type="txt" name="name" id="name" required>
+            <br><!--Pula uma linha-->
+            <br><!--Pula uma linha-->
+            <label>Email:  </label>
+            <input type="txt" name="email" id="email" required>
+            <br><!--Pula uma linha-->
+            <br><!--Pula uma linha-->
+            <label>Senha: </label>
+            <input type="password" name="password" id="password" required> 
+            <br><!--Pula uma linha-->
+            <br><!--Pula uma linha-->
+            <label>Selecione um arquivo: </label>
+            <input type="file" name="file" id="file" multiple>
+            <br><!--Pula uma linha-->
+            <br><!--Pula uma linha-->
+            <label>Escolha uma opção de envio: </label>
+            <br><!--Pula uma linha-->
+            <input type="radio" name="option1" id="option1" value="1" required>Expresso
+            <br><!--Pula uma linha-->
+            <input type="radio" name="option1" id="option1" value="2" checked required>Padrão
+            <br><!--Pula uma linha-->
+            <input type="radio" name="option1" id="option1" value="1" required>Econômica
+            <br><!--Pula uma linha-->
+            <br><!--Pula uma linha-->
+            <input type="checkbox" name="term" id="term" >Aceito os termos e condições
+            <br><!--Pula uma linha-->
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </form>
+    </main>
+    
+</body>
+</html>
